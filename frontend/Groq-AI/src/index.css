@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: #18181B;
+  color: white;
+  font-family: "Roboto Serif", serif;
+  width: 100%;
+}
+
+.image-inverted{
+  margin-top: 5px;
+  filter: invert(100%);
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 4px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .nav-link {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding: 4px 10px; /* Adjust padding for smaller screens */
+    margin-right: 5px; /* Adjust margins for smaller screens */
+    margin-left: 5px; /* Adjust margins for smaller screens */
+  }
+}
+
+
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline{
+  border-color: black !important;
+}
